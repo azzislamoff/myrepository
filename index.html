@@ -8,10 +8,9 @@
 
 <body>
     <script>
-	    
-	    var cel= +prompt('enter number');
-	    var a=9/5;
-	    var b=32;
+        /*  var cel= +prompt('enter number');
+    var a=9/5;
+   var b=32;
 	    var far=a*cel+b;
 	    alert(far);
 	    
@@ -25,13 +24,156 @@
 	    var admin= name;
 	    alert('admin '+admin);
 	    
-	    //
-	    
-//	    Чему будет равно JS-выражение 1000 + "108"- данное выражение будет равно 1000108, так как здесь есть + оператор склеивания и " "говорящие о том что тип данных string/ так как присутствует хотя бы один строчный тип данных происходит склеивание 
-	    //
 	    
 	    
-    </script> 
+	    
+	    Чему будет равно JS-выражение 1000 + "108"- данное выражение будет равно 1000108, так как здесь есть + оператор склеивания и " "говорящие о том что тип данных string/ так как присутствует хотя бы один строчный тип данных происходит склеивание 
+	    */
+
+
+
+
+         //дз2
+         // ------------1-----------
+
+        /*var a = 1, b = 1, c, d;
+              c = ++a; alert(c); // 2
+              d = b++; alert(d); // 1
+              c = (2+ ++a); alert(c); // 5
+              d = (2+ b++); alert(d); // 4
+              alert(a); // 3
+              alert(b); // 3 
+	     в данном задании из-за постфиксной и префиксной формы инкремента, получаются такие значения.  у постфиксной (b=a++) вначале значение b принимает значение "a"и только после значение a увеличивается,у префиксной(с=++a) наоборот,значение a увеличивается на 1 и после c принимает значение a*/
+
+         //---------------2------------ 
+        /*  var a = 2;
+           var x = 1 + (a *= 2);//ответ 5
+	     */
+
+         //--------------3---------------
+        /* var a=-6;
+	    var b=-2;
+	     if(a>0 && b>0){
+		    c=a-b;
+		     alert(c);
+	     }else if(a<0 && b<0){
+		     c=a*b;
+		     alert(c);
+	     }else if(a<0 && b>0 || a>0 && b<0){
+		     c=a+b;
+		     alert(c);
+	     }*/
+         //--------------------4----------------
+
+        /* var a = +prompt('введите число(от1 до 15)');
+        switch (a) {
+
+            case "1":
+                console.log('1');
+            case 2:
+                console.log('2');
+
+            case 3:
+                console.log('3');
+
+            case 4:
+                console.log('4');
+
+            case 5:
+                console.log('5');
+
+            case 6:
+                console.log('6');
+
+            case 7:
+                console.log('7');
+
+            case 8:
+                console.log('8');
+
+            case 9:
+                console.log('9');
+
+            case 10:
+                console.log('10');
+
+            case 11:
+                console.log('11');
+
+            case 12:
+                console.log('12');
+
+            case 13:
+                console.log('13');
+
+            case 14:
+                console.log('14');
+
+            case "15":
+                console.log('15');
+        }
+	    */
+         //----------------5----------
+
+
+        /* function one(a, b) {
+            return a + b;
+        }
+
+        var test = one(12, 13);
+        alert(test);
+
+
+
+
+
+        function two(a, b) {
+
+            return a - b;
+        }
+        var test = two(12, 13);
+        alert(test);
+
+
+        function three(a, b) {
+            if (a > b) {
+                return a * b;
+            } else {
+                return a / b;
+            }
+        }
+        var test = three(12, 13);
+        alert(test);
+         
+	    
+	    function four(a, b) {
+            if (a > b) {
+                return a / b;
+            } else {
+                return a * b;
+            }
+        }
+        var test = four(12, 13);
+        alert(test);*/
+
+         //----------------8-------------------
+
+        /*
+	  var val = +prompt('введите число');
+        var pow = +prompt('введите степень');
+
+
+        function power(val, pow) {
+            if (pow != 1) {
+                return val * power(val, pow - 1);
+            } else {
+                return val;
+            }
+        };
+        alert ( power(val, pow) );
+	  */
+	    
+    </script>
 </body>
 
 </html>
